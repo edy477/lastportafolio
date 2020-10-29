@@ -3,7 +3,7 @@
 const CardProject2 = () => {
 // <img  src="/images/image1.jpg " ></img>
     return (
-        <a href="https://metheor.edy47.now.sh/" className=" pts w-1/4  h-1/4 shadow-2xl">
+        <a href="https://bitcoin-dashboard-git-master.edy47.vercel.app/" target="_blank" rel="noopener noreferrer" className=" pts w-1/4  h-1/4 shadow-2xl">
         <div className="cardproject ">
 
             <img  src="/images/pic_2.png " ></img>

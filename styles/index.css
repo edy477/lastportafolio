@@ -7,24 +7,28 @@
 /* Stop purging. */
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
-}
+
 
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
-
+/*
+ #EFE2D7
+#F5F5F9
+F6F6F6
+*/
 /* Your own custom utilities */
-html,body{
-    height: 100%;
-
-    background: #EFE2D7;
+body{
+    height: 100%; margin: 0;
+    background:#F6F6F6;
  font-family: 'restoraextralight-1';
 font-size: larger;}
 #__next{
     height: 100vh;
+    min-height: 100vh
+
 }
+
 
 
 
@@ -33,8 +37,8 @@ font-size: larger;}
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 0.1fr 0.2fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.8fr 1fr;
+  grid-template-columns: 0.08fr 0.1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.8fr 1fr 1fr;
   gap: 0px 0px;
     height: 100%;
   grid-template-areas:
@@ -43,7 +47,7 @@ font-size: larger;}
           "Sidebar Content-Bar Content-Bar Content-Bar";
 }
 .Sidebar { grid-area: Sidebar;
-grid-row: 1/3;
+
 }
 .Navbar { grid-area: Navbar;
 
@@ -57,23 +61,26 @@ grid-row: 1/3;
 {
     display: grid;
     grid-template-columns: 1fr 0.1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
-    gap: 0px 0px;
 
+    overflow: auto;
 
 }
 .Picture{
     grid-column: 1/2;
-    grid-row: 1;
+
+    max-width: 100%;
+    overflow: auto;
 }
 .AboutMe{ grid-column: 3/4;
-grid-row: 1;
+
     font-size: 2em;
     font-weight: 400;
+    max-width: 100%;
+    overflow: auto;
 }
 
 .sectiontag{
-    background: #403E40;
+    background: #080808;
     color: azure;
 
 }
@@ -90,11 +97,39 @@ grid-row: 1;
     font-size: 18px;
       font-family:'Jenriv Regular';
     background: #efefef;
+
+
 }
 .contacttag
 {
     background: #403E40;
     color: azure;
     font-size: 40px;
+
+}
+.projectshead{
+    background: #403E40;
+    color: azure;
+}
+.navbars>li:hover{
+    background:#403E40;
+    color: azure;
+
+}
+
+.pts:hover {
+    transform: scale(1.1);
+    transition: all 1.3s;
+
+}
+.contax{
+    color: #294868;
+}
+.pts{
+   background:  #e2e8f0;
+}
+.aboutsection {
+    text-justify: distribute;
+    text-align-last: left;
 
 }

@@ -6,14 +6,14 @@ import Head from 'next/head';
 
 const SiteLayout = ({ children }) => (
     //border-solid border-r border-gray-600
-    <div className="grid-container">
+    <div className="grid-container h-full">
 <Head>
     <link rel="stylesheet" href="/Fonts/fonts.css" />
     <link rel="stylesheet" href="/Fonts/jervis.css" />
 </Head>
 
-            <div className="Sidebar border-solid border-r border-gray-600 flex flex-col pl-2  content-end"  >
-<Sidebar/>
+            <div className="Sidebar border-solid border-r border-gray-600 flex flex-col   content-end h-screen "  >
+
             </div>
             <div className="Navbar border-solid border-b border-gray-600  ">
                 <Navbar/>

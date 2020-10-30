@@ -12,13 +12,13 @@ const SiteLayout = ({ children }) => (
     <link rel="stylesheet" href="/Fonts/jervis.css" />
 </Head>
 
-            <div className="Sidebar border-solid border-r border-gray-600 flex flex-col   content-end h-screen "  >
+            <div className="Sidebar border-solid border-r border-gray-600 flex flex-col   content-end  "  >
 
             </div>
             <div className="Navbar border-solid border-b border-gray-600  ">
                 <Navbar/>
             </div>
-            <div className="Content-Bar"> {children}</div>
+            <div className="Content-Bar   "> {children}</div>
 
 
 

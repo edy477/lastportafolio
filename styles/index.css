@@ -44,7 +44,9 @@ font-size: larger;}
   grid-template-areas:
           "Sidebar Navbar Navbar Navbar"
           "Sidebar Content-Bar Content-Bar Content-Bar"
+          "Sidebar Content-Bar Content-Bar Content-Bar"
           "Sidebar Content-Bar Content-Bar Content-Bar";
+
 }
 .Sidebar { grid-area: Sidebar;
 
@@ -93,10 +95,14 @@ font-size: larger;}
     font-stretch: expanded;
     font-size: 60px;
 }
+/*
+#F5F5F9
+#efefef
+*/
 .cardproject{
     font-size: 18px;
       font-family:'Jenriv Regular';
-    background: #efefef;
+    background: #F5F5F9;
 
 
 }
@@ -132,4 +138,7 @@ font-size: larger;}
     text-justify: distribute;
     text-align-last: left;
 
+}
+.tsp {
+    display: grid;
 }
